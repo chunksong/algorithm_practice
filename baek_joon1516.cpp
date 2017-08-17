@@ -9,66 +9,68 @@ int main(){
 	int iNumOfTestBuilding = 0;
 	std::cin >> iNumOfTestBuilding;
 
-	std::vector< std::vector<int> > priority_rule;
+	std::vector<std::vector<int> > priority_rule;
+	std::vector<int> readyCount;
 	std::vector<int> BuildTime;
 	std::vector<int> resultTime;
+	std::set<int> remainDest;
 
 	for(int iBuildingNum = 0; iBuildingNum < iNumOfTestBuilding; ++iBuildingNum){
+		//insert building number to remainDest
+		remainDest.insert(iBuildingNum);
+
+		// get building consuming time
 		int iTimeForBuild = 0;
 		std::cin >> iTimeForBuild;
-		BuildTime.push_back(iTimeForBuild); //first element in vector is consuming time
-
-		std::vector<int> readyBuilding;
+		BuildTime.push_back(iTimeForBuild);
+		
+		// get ready time to 2D matrix  
+		std::vector<int> readyBuilding(iNumOfTestBuilding,0);
 		int iPriorityNum = 0;
+		int iReadyCount = 0;
+
 		std::cin >> iPriorityNum;
 		while(iPriorityNum != -1){
-			readyBuilding.push_back(iPriorityNum);
+			++iReadyCount;
+			readyBuilding[iPriorityNum - 1] = 1;
 			std::cin >> iPriorityNum;
 		}
+		readyCount.push_back(iReadyCount);
 		priority_rule.push_back(readyBuilding);		
 	}
 	
-	int Num = 0;
-	while(Num < iNumOfTestBuilding){
+	int startNum = 0;
+	int currentCount = readyCount[0];
+	for(int iter = 0; iter < iNumOfTestBuilding; ++iter){
+		if(readyCount[iter] < currentCount){
+			currentCount = readyCount[iter];
+			startNum = iter;
+		} 
+	}
+	
+	while(!remainDest.empty()){
 
 		int iTotalTime = 0;
-		std::set<int> readyBuildingSet;
-		std::queue<int> readyQueue;
-		std::set<int>::iterator it;
+		remainDest.erase(startNum);
+		iTotalTime += BuildTime[startNum];
 
-		iTotalTime = BuildTime[Num];
-			
-		for(int iter_one = 0; iter_one < priority_rule[Num].size(); ++iter_one){
-			readyQueue.push(priority_rule[Num][iter_one]);
-			readyBuildingSet.insert(priority_rule[Num][iter_one]);
-			while(!readyQueue.empty()){
-				int buildingNum = readyQueue.front();
-				readyQueue.pop();
-				for(int i = 0; i < priority_rule[buildingNum].size(); ++i){
-					it = readyBuildingSet.find(priority_rule[buildingNum][i]);
-					if(it == readyBuildingSet.end()){
-						readyQueue.push(priority_rule[buildingNum][i]);
-						readyBuildingSet.insert(priority_rule[buildingNum][i]);
-					}
-				}
-				
-			}
-		}
+		for(int i = 0 ; i < iNumOfTestBuilding ; ++i)
+			if(priority_rule[startNum][i])
+				iTotalTime += BuildTime[i];
 
-		for (it = readyBuildingSet.begin(); it != readyBuildingSet.end(); ++it){
-			int buildingNum = *it;
-			iTotalTime += BuildTime[buildingNum-1];
-		}
+		for(int row = 0; row < iNumOfTestBuilding; ++row)
+			priority_rule[row][startNum] = 0;
 
-		resultTime.push_back(iTotalTime);
+		resultTime[startNum] = iTotalTime;
+
+		
 		// for(int i = 0; i < priority_rule[Num].size(); ++i)
 		// 	std::cout << priority_rule[Num][i] << " "; 
 		// std::cout << std::endl;
-		++Num;
 	}
 
 	for(int i = 0; i < iNumOfTestBuilding; ++i)
-		std::cout << resultTime[i] << std::endl;
+		std::cout << BuildTime[i] << std::endl;
 
 	return 0;
 }
