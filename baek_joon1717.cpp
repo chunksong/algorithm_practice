@@ -4,6 +4,14 @@
 #include <set>
 #include <stack>
 
+int find (std::vector<int> &v, int num){
+	if(v[num] == num)	return num;
+	else{
+		v[num] = find(v,v[num]);
+		return v[num];
+	}
+}
+
 int main(){
 
 	int iKindOfNum = 0;
@@ -12,6 +20,7 @@ int main(){
 	scanf("%d %d",&iKindOfNum, &iCalCount);
 
 	std::vector<int> class_of_num;
+	class_of_num.reserve(iKindOfNum + 1);
 	for(int i = 0; i < iKindOfNum+1; ++i)
 		class_of_num.push_back(i);
 	// std::vector<std::vector<int> > graph(iKindOfNum + 1);
@@ -29,16 +38,13 @@ int main(){
 
 		scanf("%d %d %d",&isUnionOP,&iElementOne,&iElementTwo);
 		if(isUnionOP == 1){
-			if(class_of_num[iElementOne] == class_of_num[iElementTwo])
-				std::cout << "YES" << std::endl;
+			if(find(class_of_num,iElementOne) == find(class_of_num,iElementTwo))
+				printf("YES\n");
 			else
-				std::cout << "NO" << std::endl;
+				printf("NO\n");
 		}
 		else{
-			class_of_num[iElementOne] = iElementOne;
-			for(int i = 0; i < iKindOfNum+1; ++i)
-				if(class_of_num[i] == iElementTwo)
-					class_of_num[i] = iElementOne;
+			class_of_num[find(class_of_num,iElementOne)] = class_of_num[find(class_of_num,iElementTwo)];
 		}
 
 		--iCalCount;
