@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BDAC5C641F4BD7B000AB3A3D /* baekjoon_9465.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDAC5C621F4BD7B000AB3A3D /* baekjoon_9465.cpp */; };
+		BD1124E91F4D2F0C003A9F68 /* baekjoon_2193.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1124E81F4D2F0C003A9F68 /* baekjoon_2193.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BDAC5C621F4BD7B000AB3A3D /* baekjoon_9465.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = baekjoon_9465.cpp; sourceTree = "<group>"; };
+		BD1124E81F4D2F0C003A9F68 /* baekjoon_2193.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = baekjoon_2193.cpp; sourceTree = "<group>"; };
 		BDE7DF351F478B84001DC330 /* PS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PS; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -57,7 +57,7 @@
 		BDE7DF371F478B84001DC330 /* PS */ = {
 			isa = PBXGroup;
 			children = (
-				BDAC5C621F4BD7B000AB3A3D /* baekjoon_9465.cpp */,
+				BD1124E81F4D2F0C003A9F68 /* baekjoon_2193.cpp */,
 			);
 			path = PS;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDAC5C641F4BD7B000AB3A3D /* baekjoon_9465.cpp in Sources */,
+				BD1124E91F4D2F0C003A9F68 /* baekjoon_2193.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
