@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		BD1124E91F4D2F0C003A9F68 /* baekjoon_2193.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1124E81F4D2F0C003A9F68 /* baekjoon_2193.cpp */; };
 		BD1C4F8C1F567A2300D1C3D0 /* leetcode654_maximum_binary_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1C4F8B1F567A2300D1C3D0 /* leetcode654_maximum_binary_tree.cpp */; };
+		BD1E1B0E1F6108470091EA5C /* leetcode338_Counting_Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1E1B0D1F6108470091EA5C /* leetcode338_Counting_Bits.cpp */; };
+		BD1E1B101F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1E1B0F1F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp */; };
 		BD6BB1011F5FA4ED00D45662 /* leetcode617_Merge_Two_Binary_Trees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6BB1001F5FA4ED00D45662 /* leetcode617_Merge_Two_Binary_Trees.cpp */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,8 @@
 /* Begin PBXFileReference section */
 		BD1124E81F4D2F0C003A9F68 /* baekjoon_2193.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = baekjoon_2193.cpp; sourceTree = "<group>"; };
 		BD1C4F8B1F567A2300D1C3D0 /* leetcode654_maximum_binary_tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode654_maximum_binary_tree.cpp; sourceTree = "<group>"; };
+		BD1E1B0D1F6108470091EA5C /* leetcode338_Counting_Bits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode338_Counting_Bits.cpp; sourceTree = "<group>"; };
+		BD1E1B0F1F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp; sourceTree = "<group>"; };
 		BD6BB1001F5FA4ED00D45662 /* leetcode617_Merge_Two_Binary_Trees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode617_Merge_Two_Binary_Trees.cpp; sourceTree = "<group>"; };
 		BDE7DF351F478B84001DC330 /* PS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PS; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -64,6 +68,8 @@
 				BD1124E81F4D2F0C003A9F68 /* baekjoon_2193.cpp */,
 				BD1C4F8B1F567A2300D1C3D0 /* leetcode654_maximum_binary_tree.cpp */,
 				BD6BB1001F5FA4ED00D45662 /* leetcode617_Merge_Two_Binary_Trees.cpp */,
+				BD1E1B0D1F6108470091EA5C /* leetcode338_Counting_Bits.cpp */,
+				BD1E1B0F1F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp */,
 			);
 			path = PS;
 			sourceTree = "<group>";
@@ -125,7 +131,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD1E1B0E1F6108470091EA5C /* leetcode338_Counting_Bits.cpp in Sources */,
 				BD6BB1011F5FA4ED00D45662 /* leetcode617_Merge_Two_Binary_Trees.cpp in Sources */,
+				BD1E1B101F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp in Sources */,
 				BD1C4F8C1F567A2300D1C3D0 /* leetcode654_maximum_binary_tree.cpp in Sources */,
 				BD1124E91F4D2F0C003A9F68 /* baekjoon_2193.cpp in Sources */,
 			);
