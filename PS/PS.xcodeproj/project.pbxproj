@@ -13,6 +13,7 @@
 		BD1E1B101F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1E1B0F1F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp */; };
 		BD6207671F63A93000F53B61 /* leetcode561_Array_Partition_I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6207661F63A93000F53B61 /* leetcode561_Array_Partition_I.cpp */; };
 		BD6207691F63AF1300F53B61 /* leetcode566_Reshape_the_Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6207681F63AF1300F53B61 /* leetcode566_Reshape_the_Matrix.cpp */; };
+		BD62076B1F63BC9800F53B61 /* leetcode442_Find_All_Duplicates_in_an_Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD62076A1F63BC9800F53B61 /* leetcode442_Find_All_Duplicates_in_an_Array.cpp */; };
 		BD654BEE1F62529100D44D9C /* leetcode657_Judge_Route_Circle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD654BED1F62529100D44D9C /* leetcode657_Judge_Route_Circle.cpp */; };
 		BD654BF01F62631A00D44D9C /* leetcode537_Complex_Number_Multiplication.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD654BEF1F62631A00D44D9C /* leetcode537_Complex_Number_Multiplication.cpp */; };
 		BD6BB1011F5FA4ED00D45662 /* leetcode617_Merge_Two_Binary_Trees.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6BB1001F5FA4ED00D45662 /* leetcode617_Merge_Two_Binary_Trees.cpp */; };
@@ -37,6 +38,7 @@
 		BD1E1B0F1F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp; sourceTree = "<group>"; };
 		BD6207661F63A93000F53B61 /* leetcode561_Array_Partition_I.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode561_Array_Partition_I.cpp; sourceTree = "<group>"; };
 		BD6207681F63AF1300F53B61 /* leetcode566_Reshape_the_Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode566_Reshape_the_Matrix.cpp; sourceTree = "<group>"; };
+		BD62076A1F63BC9800F53B61 /* leetcode442_Find_All_Duplicates_in_an_Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode442_Find_All_Duplicates_in_an_Array.cpp; sourceTree = "<group>"; };
 		BD654BED1F62529100D44D9C /* leetcode657_Judge_Route_Circle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode657_Judge_Route_Circle.cpp; sourceTree = "<group>"; };
 		BD654BEF1F62631A00D44D9C /* leetcode537_Complex_Number_Multiplication.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode537_Complex_Number_Multiplication.cpp; sourceTree = "<group>"; };
 		BD6BB1001F5FA4ED00D45662 /* leetcode617_Merge_Two_Binary_Trees.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode617_Merge_Two_Binary_Trees.cpp; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 				BD654BEF1F62631A00D44D9C /* leetcode537_Complex_Number_Multiplication.cpp */,
 				BD6207661F63A93000F53B61 /* leetcode561_Array_Partition_I.cpp */,
 				BD6207681F63AF1300F53B61 /* leetcode566_Reshape_the_Matrix.cpp */,
+				BD62076A1F63BC9800F53B61 /* leetcode442_Find_All_Duplicates_in_an_Array.cpp */,
 			);
 			path = PS;
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 				BD6207691F63AF1300F53B61 /* leetcode566_Reshape_the_Matrix.cpp in Sources */,
 				BD654BF01F62631A00D44D9C /* leetcode537_Complex_Number_Multiplication.cpp in Sources */,
 				BD1C4F8C1F567A2300D1C3D0 /* leetcode654_maximum_binary_tree.cpp in Sources */,
+				BD62076B1F63BC9800F53B61 /* leetcode442_Find_All_Duplicates_in_an_Array.cpp in Sources */,
 				BD1124E91F4D2F0C003A9F68 /* baekjoon_2193.cpp in Sources */,
 				BD6207671F63A93000F53B61 /* leetcode561_Array_Partition_I.cpp in Sources */,
 				BD654BEE1F62529100D44D9C /* leetcode657_Judge_Route_Circle.cpp in Sources */,
