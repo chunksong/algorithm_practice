@@ -11,6 +11,8 @@
 		BD1C4F8C1F567A2300D1C3D0 /* leetcode654_maximum_binary_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1C4F8B1F567A2300D1C3D0 /* leetcode654_maximum_binary_tree.cpp */; };
 		BD1E1B0E1F6108470091EA5C /* leetcode338_Counting_Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1E1B0D1F6108470091EA5C /* leetcode338_Counting_Bits.cpp */; };
 		BD1E1B101F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1E1B0F1F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp */; };
+		BD4A086A1F6B9F7600BD2C7D /* leetcode557_Reverse_Words_in_a_String_III.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4A08691F6B9F7600BD2C7D /* leetcode557_Reverse_Words_in_a_String_III.cpp */; };
+		BD4A086C1F6BA00200BD2C7D /* leetcode553_Optimal_Division.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4A086B1F6BA00200BD2C7D /* leetcode553_Optimal_Division.cpp */; };
 		BD6207671F63A93000F53B61 /* leetcode561_Array_Partition_I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6207661F63A93000F53B61 /* leetcode561_Array_Partition_I.cpp */; };
 		BD6207691F63AF1300F53B61 /* leetcode566_Reshape_the_Matrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6207681F63AF1300F53B61 /* leetcode566_Reshape_the_Matrix.cpp */; };
 		BD62076B1F63BC9800F53B61 /* leetcode442_Find_All_Duplicates_in_an_Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD62076A1F63BC9800F53B61 /* leetcode442_Find_All_Duplicates_in_an_Array.cpp */; };
@@ -38,6 +40,8 @@
 		BD1C4F8B1F567A2300D1C3D0 /* leetcode654_maximum_binary_tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode654_maximum_binary_tree.cpp; sourceTree = "<group>"; };
 		BD1E1B0D1F6108470091EA5C /* leetcode338_Counting_Bits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode338_Counting_Bits.cpp; sourceTree = "<group>"; };
 		BD1E1B0F1F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp; sourceTree = "<group>"; };
+		BD4A08691F6B9F7600BD2C7D /* leetcode557_Reverse_Words_in_a_String_III.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode557_Reverse_Words_in_a_String_III.cpp; sourceTree = "<group>"; };
+		BD4A086B1F6BA00200BD2C7D /* leetcode553_Optimal_Division.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode553_Optimal_Division.cpp; sourceTree = "<group>"; };
 		BD6207661F63A93000F53B61 /* leetcode561_Array_Partition_I.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode561_Array_Partition_I.cpp; sourceTree = "<group>"; };
 		BD6207681F63AF1300F53B61 /* leetcode566_Reshape_the_Matrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode566_Reshape_the_Matrix.cpp; sourceTree = "<group>"; };
 		BD62076A1F63BC9800F53B61 /* leetcode442_Find_All_Duplicates_in_an_Array.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode442_Find_All_Duplicates_in_an_Array.cpp; sourceTree = "<group>"; };
@@ -91,6 +95,8 @@
 				BD6207661F63A93000F53B61 /* leetcode561_Array_Partition_I.cpp */,
 				BD6207681F63AF1300F53B61 /* leetcode566_Reshape_the_Matrix.cpp */,
 				BD62076A1F63BC9800F53B61 /* leetcode442_Find_All_Duplicates_in_an_Array.cpp */,
+				BD4A08691F6B9F7600BD2C7D /* leetcode557_Reverse_Words_in_a_String_III.cpp */,
+				BD4A086B1F6BA00200BD2C7D /* leetcode553_Optimal_Division.cpp */,
 			);
 			path = PS;
 			sourceTree = "<group>";
@@ -158,7 +164,9 @@
 				BD1E1B101F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp in Sources */,
 				BD6207691F63AF1300F53B61 /* leetcode566_Reshape_the_Matrix.cpp in Sources */,
 				BDB285EA1F6A4F010047FE45 /* leetcode647_Palindromic_Substrings.cpp in Sources */,
+				BD4A086A1F6B9F7600BD2C7D /* leetcode557_Reverse_Words_in_a_String_III.cpp in Sources */,
 				BD654BF01F62631A00D44D9C /* leetcode537_Complex_Number_Multiplication.cpp in Sources */,
+				BD4A086C1F6BA00200BD2C7D /* leetcode553_Optimal_Division.cpp in Sources */,
 				BD1C4F8C1F567A2300D1C3D0 /* leetcode654_maximum_binary_tree.cpp in Sources */,
 				BD62076B1F63BC9800F53B61 /* leetcode442_Find_All_Duplicates_in_an_Array.cpp in Sources */,
 				BD1124E91F4D2F0C003A9F68 /* baekjoon_2193.cpp in Sources */,
