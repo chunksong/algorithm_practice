@@ -11,6 +11,7 @@
 		BD1C4F8C1F567A2300D1C3D0 /* leetcode654_maximum_binary_tree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1C4F8B1F567A2300D1C3D0 /* leetcode654_maximum_binary_tree.cpp */; };
 		BD1E1B0E1F6108470091EA5C /* leetcode338_Counting_Bits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1E1B0D1F6108470091EA5C /* leetcode338_Counting_Bits.cpp */; };
 		BD1E1B101F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1E1B0F1F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp */; };
+		BD233F311FA3F2A6001FDADD /* leetcode692_Top_K_Frequent_Words.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD233F301FA3F2A6001FDADD /* leetcode692_Top_K_Frequent_Words.cpp */; };
 		BD4A086A1F6B9F7600BD2C7D /* leetcode557_Reverse_Words_in_a_String_III.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4A08691F6B9F7600BD2C7D /* leetcode557_Reverse_Words_in_a_String_III.cpp */; };
 		BD4A086C1F6BA00200BD2C7D /* leetcode553_Optimal_Division.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4A086B1F6BA00200BD2C7D /* leetcode553_Optimal_Division.cpp */; };
 		BD60EF541F7468C700ECB667 /* leetcode53_Maximum_subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD60EF531F7468C700ECB667 /* leetcode53_Maximum_subarray.cpp */; };
@@ -55,6 +56,7 @@
 		BD1C4F8B1F567A2300D1C3D0 /* leetcode654_maximum_binary_tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode654_maximum_binary_tree.cpp; sourceTree = "<group>"; };
 		BD1E1B0D1F6108470091EA5C /* leetcode338_Counting_Bits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode338_Counting_Bits.cpp; sourceTree = "<group>"; };
 		BD1E1B0F1F610FF80091EA5C /* leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode121_Best_Time_to_Buy_and_Sell_Stock.cpp; sourceTree = "<group>"; };
+		BD233F301FA3F2A6001FDADD /* leetcode692_Top_K_Frequent_Words.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode692_Top_K_Frequent_Words.cpp; sourceTree = "<group>"; };
 		BD4A08691F6B9F7600BD2C7D /* leetcode557_Reverse_Words_in_a_String_III.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode557_Reverse_Words_in_a_String_III.cpp; sourceTree = "<group>"; };
 		BD4A086B1F6BA00200BD2C7D /* leetcode553_Optimal_Division.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode553_Optimal_Division.cpp; sourceTree = "<group>"; };
 		BD60EF531F7468C700ECB667 /* leetcode53_Maximum_subarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode53_Maximum_subarray.cpp; sourceTree = "<group>"; };
@@ -142,6 +144,7 @@
 				BD60EF631F7B7E1000ECB667 /* leetcode515_Find_Largest_Value_in_Each_Tree_Row.cpp */,
 				BDFA6DD21F8C7312007AAF3A /* leetcode207_Course_schedule.cpp */,
 				BDCCE6E91F8D90700089C2DD /* leetcode539_Minimum_Time_difference.cpp */,
+				BD233F301FA3F2A6001FDADD /* leetcode692_Top_K_Frequent_Words.cpp */,
 			);
 			path = PS;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				BD6207691F63AF1300F53B61 /* leetcode566_Reshape_the_Matrix.cpp in Sources */,
 				BD60EF561F74754D00ECB667 /* leetcode413_Arithmetic_Slices.cpp in Sources */,
 				BDB285EA1F6A4F010047FE45 /* leetcode647_Palindromic_Substrings.cpp in Sources */,
+				BD233F311FA3F2A6001FDADD /* leetcode692_Top_K_Frequent_Words.cpp in Sources */,
 				BD6C2A011F72DDF500EF274F /* leetcode669_Trim_a_Binary_Search_Tree.cpp in Sources */,
 				BD6C2A031F72DE8B00EF274F /* leetcode513_Find_Bottom_Left_Tree_Value.cpp in Sources */,
 				BDFA6DD31F8C7312007AAF3A /* leetcode207_Course_schedule.cpp in Sources */,
