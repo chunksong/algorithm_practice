@@ -34,6 +34,10 @@
 		BDB285E81F6A4EBD0047FE45 /* leetcode70_Climbing_Stairs.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDB285E71F6A4EBD0047FE45 /* leetcode70_Climbing_Stairs.cpp */; };
 		BDB285EA1F6A4F010047FE45 /* leetcode647_Palindromic_Substrings.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDB285E91F6A4F010047FE45 /* leetcode647_Palindromic_Substrings.cpp */; };
 		BDCCE6EA1F8D90700089C2DD /* leetcode539_Minimum_Time_difference.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDCCE6E91F8D90700089C2DD /* leetcode539_Minimum_Time_difference.cpp */; };
+		BDD939201FC6057300247949 /* leetcode1_Two_Sum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDD9391F1FC6057300247949 /* leetcode1_Two_Sum.cpp */; };
+		BDD939221FC6061700247949 /* leetcode2_Add_Two_Numbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDD939211FC6061700247949 /* leetcode2_Add_Two_Numbers.cpp */; };
+		BDDF73971FFB54CE00576D42 /* leetcode7_Reverse_Integer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDDF73961FFB54CE00576D42 /* leetcode7_Reverse_Integer.cpp */; };
+		BDDF73991FFCAB6A00576D42 /* leetcode6_ZigZag_Conversion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDDF73981FFCAB6A00576D42 /* leetcode6_ZigZag_Conversion.cpp */; };
 		BDECF4141F6CD4E50017D9CE /* leetcode485_Max_Consecutive_Ones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDECF4131F6CD4E50017D9CE /* leetcode485_Max_Consecutive_Ones.cpp */; };
 		BDECF4161F6CD5590017D9CE /* leetcode667_Beautiful_Arrangement_II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDECF4151F6CD5590017D9CE /* leetcode667_Beautiful_Arrangement_II.cpp */; };
 		BDFA6DD31F8C7312007AAF3A /* leetcode207_Course_schedule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDFA6DD21F8C7312007AAF3A /* leetcode207_Course_schedule.cpp */; };
@@ -79,6 +83,10 @@
 		BDB285E71F6A4EBD0047FE45 /* leetcode70_Climbing_Stairs.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode70_Climbing_Stairs.cpp; sourceTree = "<group>"; };
 		BDB285E91F6A4F010047FE45 /* leetcode647_Palindromic_Substrings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode647_Palindromic_Substrings.cpp; sourceTree = "<group>"; };
 		BDCCE6E91F8D90700089C2DD /* leetcode539_Minimum_Time_difference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode539_Minimum_Time_difference.cpp; sourceTree = "<group>"; };
+		BDD9391F1FC6057300247949 /* leetcode1_Two_Sum.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = "leetcode1\U0010_Two_Sum.cpp"; sourceTree = "<group>"; };
+		BDD939211FC6061700247949 /* leetcode2_Add_Two_Numbers.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode2_Add_Two_Numbers.cpp; sourceTree = "<group>"; };
+		BDDF73961FFB54CE00576D42 /* leetcode7_Reverse_Integer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode7_Reverse_Integer.cpp; sourceTree = "<group>"; };
+		BDDF73981FFCAB6A00576D42 /* leetcode6_ZigZag_Conversion.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode6_ZigZag_Conversion.cpp; sourceTree = "<group>"; };
 		BDE7DF351F478B84001DC330 /* PS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PS; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDECF4131F6CD4E50017D9CE /* leetcode485_Max_Consecutive_Ones.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode485_Max_Consecutive_Ones.cpp; sourceTree = "<group>"; };
 		BDECF4151F6CD5590017D9CE /* leetcode667_Beautiful_Arrangement_II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode667_Beautiful_Arrangement_II.cpp; sourceTree = "<group>"; };
@@ -130,6 +138,8 @@
 				BD62076A1F63BC9800F53B61 /* leetcode442_Find_All_Duplicates_in_an_Array.cpp */,
 				BD60EF5D1F7603E400ECB667 /* leetcode448_Find_All_Numbers_Disappeared_in_an_Array.cpp */,
 				BD60EF5F1F760EE200ECB667 /* leetcode35_Search_Insert_Position.cpp */,
+				BDDF73961FFB54CE00576D42 /* leetcode7_Reverse_Integer.cpp */,
+				BDDF73981FFCAB6A00576D42 /* leetcode6_ZigZag_Conversion.cpp */,
 				BD4A08691F6B9F7600BD2C7D /* leetcode557_Reverse_Words_in_a_String_III.cpp */,
 				BD4A086B1F6BA00200BD2C7D /* leetcode553_Optimal_Division.cpp */,
 				BDECF4131F6CD4E50017D9CE /* leetcode485_Max_Consecutive_Ones.cpp */,
@@ -145,6 +155,8 @@
 				BDFA6DD21F8C7312007AAF3A /* leetcode207_Course_schedule.cpp */,
 				BDCCE6E91F8D90700089C2DD /* leetcode539_Minimum_Time_difference.cpp */,
 				BD233F301FA3F2A6001FDADD /* leetcode692_Top_K_Frequent_Words.cpp */,
+				BDD9391F1FC6057300247949 /* leetcode1_Two_Sum.cpp */,
+				BDD939211FC6061700247949 /* leetcode2_Add_Two_Numbers.cpp */,
 			);
 			path = PS;
 			sourceTree = "<group>";
@@ -207,8 +219,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD60EF5C1F7602B500ECB667 /* leetcode339_Evaluate_Division.cpp in Sources */,
+				BDD939221FC6061700247949 /* leetcode2_Add_Two_Numbers.cpp in Sources */,
 				BD60EF641F7B7E1000ECB667 /* leetcode515_Find_Largest_Value_in_Each_Tree_Row.cpp in Sources */,
 				BD1E1B0E1F6108470091EA5C /* leetcode338_Counting_Bits.cpp in Sources */,
+				BDDF73971FFB54CE00576D42 /* leetcode7_Reverse_Integer.cpp in Sources */,
 				BDECF4141F6CD4E50017D9CE /* leetcode485_Max_Consecutive_Ones.cpp in Sources */,
 				BD6BB1011F5FA4ED00D45662 /* leetcode617_Merge_Two_Binary_Trees.cpp in Sources */,
 				BDB285E81F6A4EBD0047FE45 /* leetcode70_Climbing_Stairs.cpp in Sources */,
@@ -217,6 +231,7 @@
 				BDECF4161F6CD5590017D9CE /* leetcode667_Beautiful_Arrangement_II.cpp in Sources */,
 				BD6207691F63AF1300F53B61 /* leetcode566_Reshape_the_Matrix.cpp in Sources */,
 				BD60EF561F74754D00ECB667 /* leetcode413_Arithmetic_Slices.cpp in Sources */,
+				BDDF73991FFCAB6A00576D42 /* leetcode6_ZigZag_Conversion.cpp in Sources */,
 				BDB285EA1F6A4F010047FE45 /* leetcode647_Palindromic_Substrings.cpp in Sources */,
 				BD233F311FA3F2A6001FDADD /* leetcode692_Top_K_Frequent_Words.cpp in Sources */,
 				BD6C2A011F72DDF500EF274F /* leetcode669_Trim_a_Binary_Search_Tree.cpp in Sources */,
@@ -232,6 +247,7 @@
 				BD60EF5E1F7603E400ECB667 /* leetcode448_Find_All_Numbers_Disappeared_in_an_Array.cpp in Sources */,
 				BD1124E91F4D2F0C003A9F68 /* baekjoon_2193.cpp in Sources */,
 				BDCCE6EA1F8D90700089C2DD /* leetcode539_Minimum_Time_difference.cpp in Sources */,
+				BDD939201FC6057300247949 /* leetcode1_Two_Sum.cpp in Sources */,
 				BD60EF601F760EE200ECB667 /* leetcode35_Search_Insert_Position.cpp in Sources */,
 				BD6207671F63A93000F53B61 /* leetcode561_Array_Partition_I.cpp in Sources */,
 				BD60EF541F7468C700ECB667 /* leetcode53_Maximum_subarray.cpp in Sources */,
