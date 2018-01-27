@@ -17,6 +17,7 @@
 		BD347F83201071BA00EB5480 /* leetcode71_Simplify_Path.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD347F82201071BA00EB5480 /* leetcode71_Simplify_Path.cpp */; };
 		BD4A086A1F6B9F7600BD2C7D /* leetcode557_Reverse_Words_in_a_String_III.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4A08691F6B9F7600BD2C7D /* leetcode557_Reverse_Words_in_a_String_III.cpp */; };
 		BD4A086C1F6BA00200BD2C7D /* leetcode553_Optimal_Division.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4A086B1F6BA00200BD2C7D /* leetcode553_Optimal_Division.cpp */; };
+		BD4B3C3B201C764400DDCFDD /* leetcode496_Next_Greater_Element_I.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4B3C3A201C764400DDCFDD /* leetcode496_Next_Greater_Element_I.cpp */; };
 		BD60EF541F7468C700ECB667 /* leetcode53_Maximum_subarray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD60EF531F7468C700ECB667 /* leetcode53_Maximum_subarray.cpp */; };
 		BD60EF561F74754D00ECB667 /* leetcode413_Arithmetic_Slices.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD60EF551F74754D00ECB667 /* leetcode413_Arithmetic_Slices.cpp */; };
 		BD60EF581F74D89C00ECB667 /* leetcode344_Reverse_String.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD60EF571F74D89C00ECB667 /* leetcode344_Reverse_String.cpp */; };
@@ -79,6 +80,7 @@
 		BD347F82201071BA00EB5480 /* leetcode71_Simplify_Path.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode71_Simplify_Path.cpp; sourceTree = "<group>"; };
 		BD4A08691F6B9F7600BD2C7D /* leetcode557_Reverse_Words_in_a_String_III.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode557_Reverse_Words_in_a_String_III.cpp; sourceTree = "<group>"; };
 		BD4A086B1F6BA00200BD2C7D /* leetcode553_Optimal_Division.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode553_Optimal_Division.cpp; sourceTree = "<group>"; };
+		BD4B3C3A201C764400DDCFDD /* leetcode496_Next_Greater_Element_I.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode496_Next_Greater_Element_I.cpp; sourceTree = "<group>"; };
 		BD60EF531F7468C700ECB667 /* leetcode53_Maximum_subarray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode53_Maximum_subarray.cpp; sourceTree = "<group>"; };
 		BD60EF551F74754D00ECB667 /* leetcode413_Arithmetic_Slices.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode413_Arithmetic_Slices.cpp; sourceTree = "<group>"; };
 		BD60EF571F74D89C00ECB667 /* leetcode344_Reverse_String.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode344_Reverse_String.cpp; sourceTree = "<group>"; };
@@ -168,6 +170,7 @@
 				BD347F82201071BA00EB5480 /* leetcode71_Simplify_Path.cpp */,
 				BDFC47A920183A7E00A5B0C4 /* leetcode690_Employee_Importance.cpp */,
 				BDD34FDF201AF24D007F28ED /* leetcode74_Search_a_2D_Matrix.cpp */,
+				BD4B3C3A201C764400DDCFDD /* leetcode496_Next_Greater_Element_I.cpp */,
 				BD60EF5F1F760EE200ECB667 /* leetcode35_Search_Insert_Position.cpp */,
 				BDDF73961FFB54CE00576D42 /* leetcode7_Reverse_Integer.cpp */,
 				BDDF73981FFCAB6A00576D42 /* leetcode6_ZigZag_Conversion.cpp */,
@@ -264,6 +267,7 @@
 				BDDF73971FFB54CE00576D42 /* leetcode7_Reverse_Integer.cpp in Sources */,
 				BDCFD09C2008708C0025A88D /* leetcode24_Swap_Nodes_in_Pairs.cpp in Sources */,
 				BDECF4141F6CD4E50017D9CE /* leetcode485_Max_Consecutive_Ones.cpp in Sources */,
+				BD4B3C3B201C764400DDCFDD /* leetcode496_Next_Greater_Element_I.cpp in Sources */,
 				BD6BB1011F5FA4ED00D45662 /* leetcode617_Merge_Two_Binary_Trees.cpp in Sources */,
 				BDB285E81F6A4EBD0047FE45 /* leetcode70_Climbing_Stairs.cpp in Sources */,
 				BD60EF621F7B79D800ECB667 /* leetcode647_Average_of_Levels_in_Binary_Tree.cpp in Sources */,
