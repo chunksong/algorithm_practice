@@ -53,6 +53,7 @@
 		BDDF73A1200098E600576D42 /* leetcode20_Valid_Parentheses.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDDF73A0200098E600576D42 /* leetcode20_Valid_Parentheses.cpp */; };
 		BDECF4141F6CD4E50017D9CE /* leetcode485_Max_Consecutive_Ones.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDECF4131F6CD4E50017D9CE /* leetcode485_Max_Consecutive_Ones.cpp */; };
 		BDECF4161F6CD5590017D9CE /* leetcode667_Beautiful_Arrangement_II.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDECF4151F6CD5590017D9CE /* leetcode667_Beautiful_Arrangement_II.cpp */; };
+		BDF890BB20329C93003DF877 /* leetcode89_Gray_Code.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF890BA20329C93003DF877 /* leetcode89_Gray_Code.cpp */; };
 		BDFA6DD31F8C7312007AAF3A /* leetcode207_Course_schedule.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDFA6DD21F8C7312007AAF3A /* leetcode207_Course_schedule.cpp */; };
 		BDFC47AA20183A7E00A5B0C4 /* leetcode690_Employee_Importance.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDFC47A920183A7E00A5B0C4 /* leetcode690_Employee_Importance.cpp */; };
 		BDFC8CD32003160200B74DF2 /* leetcode21_Merge_Two_Sorted_list.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDFC8CD22003160200B74DF2 /* leetcode21_Merge_Two_Sorted_list.cpp */; };
@@ -118,6 +119,7 @@
 		BDE7DF351F478B84001DC330 /* PS */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PS; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDECF4131F6CD4E50017D9CE /* leetcode485_Max_Consecutive_Ones.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode485_Max_Consecutive_Ones.cpp; sourceTree = "<group>"; };
 		BDECF4151F6CD5590017D9CE /* leetcode667_Beautiful_Arrangement_II.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode667_Beautiful_Arrangement_II.cpp; sourceTree = "<group>"; };
+		BDF890BA20329C93003DF877 /* leetcode89_Gray_Code.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode89_Gray_Code.cpp; sourceTree = "<group>"; };
 		BDFA6DD21F8C7312007AAF3A /* leetcode207_Course_schedule.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode207_Course_schedule.cpp; sourceTree = "<group>"; };
 		BDFC47A920183A7E00A5B0C4 /* leetcode690_Employee_Importance.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode690_Employee_Importance.cpp; sourceTree = "<group>"; };
 		BDFC8CD22003160200B74DF2 /* leetcode21_Merge_Two_Sorted_list.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = leetcode21_Merge_Two_Sorted_list.cpp; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 				BD60EF631F7B7E1000ECB667 /* leetcode515_Find_Largest_Value_in_Each_Tree_Row.cpp */,
 				BDFA6DD21F8C7312007AAF3A /* leetcode207_Course_schedule.cpp */,
 				BDBCD573202AA98100358E40 /* leetcode283_Move_Zeroes.cpp */,
+				BDF890BA20329C93003DF877 /* leetcode89_Gray_Code.cpp */,
 				BDCCE6E91F8D90700089C2DD /* leetcode539_Minimum_Time_difference.cpp */,
 				BD233F301FA3F2A6001FDADD /* leetcode692_Top_K_Frequent_Words.cpp */,
 				BDD9391F1FC6057300247949 /* leetcode1_Two_Sum.cpp */,
@@ -288,6 +291,7 @@
 				BDDF73A1200098E600576D42 /* leetcode20_Valid_Parentheses.cpp in Sources */,
 				BDFC8CD32003160200B74DF2 /* leetcode21_Merge_Two_Sorted_list.cpp in Sources */,
 				BD6C2A011F72DDF500EF274F /* leetcode669_Trim_a_Binary_Search_Tree.cpp in Sources */,
+				BDF890BB20329C93003DF877 /* leetcode89_Gray_Code.cpp in Sources */,
 				BD6C2A031F72DE8B00EF274F /* leetcode513_Find_Bottom_Left_Tree_Value.cpp in Sources */,
 				BDFA6DD31F8C7312007AAF3A /* leetcode207_Course_schedule.cpp in Sources */,
 				BD347F83201071BA00EB5480 /* leetcode71_Simplify_Path.cpp in Sources */,
